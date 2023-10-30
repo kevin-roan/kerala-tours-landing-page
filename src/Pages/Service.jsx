@@ -1,6 +1,6 @@
 import React from "react";
 import Hero from "../components/Hero";
-import serviceImage from "../assets/3.jpg";
+import serviceImage from "../assets/vagamon.jpg";
 
 function Service() {
   return (

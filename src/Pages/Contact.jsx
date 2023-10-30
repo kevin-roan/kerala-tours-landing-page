@@ -1,6 +1,6 @@
 import React from "react";
 import Hero from "../components/Hero";
-import contactImage from "../assets/4.jpg";
+import contactImage from "../assets/munnar.jpg";
 
 function Contact() {
   return (
