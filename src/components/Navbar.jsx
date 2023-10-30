@@ -48,11 +48,11 @@ export default function Navbar() {
       <ul className={`${isToggleMenu ? "nav-menu active" : "nav-menu"}`}>
         {navItems.map((item, index) => (
           <li key={index} className={item.cName}>
-            <i className={item.icon}></i>
             <Link
               to={item.url}
               style={{ textDecoration: "none", color: "inherit" }}
             >
+              <i className={item.icon}></i>
               {item.name}
             </Link>
           </li>
