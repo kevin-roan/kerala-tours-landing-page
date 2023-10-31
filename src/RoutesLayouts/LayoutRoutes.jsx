@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Navbar } from "../components";
 import { Home, Contact, About, Service } from "../Pages";
+import Footer from "../components/Footer";
 
 function LayoutRoutes() {
   const routes = [
@@ -35,6 +36,7 @@ function LayoutRoutes() {
           />
         ))}
       </Routes>
+      <Footer />
     </Router>
   );
 }

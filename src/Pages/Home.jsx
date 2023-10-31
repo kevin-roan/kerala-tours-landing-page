@@ -18,7 +18,6 @@ function Home() {
       />
       <Destination />
       <Trip />
-      <Footer />
     </div>
   );
 }
